@@ -1,0 +1,96 @@
+# Dependencies
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime / env files
+.env
+.env.*
+.env.local
+.env.*.local
+
+# Build outputs / bundlers
+dist/
+dist-ssr/
+build/
+out/
+.cache/
+/.parcel-cache/
+/.next/
+/.nuxt/
+/.vercel/
+/.serverless/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Dependency directories for other package managers
+/.pnp/
+.pnp.js
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Editors and IDEs
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Package manager lockfiles (optional to ignore)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Local and temporary files
+*.local
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Logs and debug
+*.log
+debug.log*
+
+# Binary and build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE history / caches
+.history/
+
+# Optional npm/yarn pnpm global stuff
+.npm/
+.cache/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Secrets / keys
+*.pem
+*.key
+*.crt
+
+# Specific to this repo: keep examples, ignore actual envs
+*.example
+
